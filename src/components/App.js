@@ -9,13 +9,13 @@ const tabArr = [
 ]
 const App = () => {
   return (
-    <div>
-      <div className='viewport'>Pages Go Here</div>
+    <div className='tabs'>
       {
         tabArr.map(item => {
           return <Tabs tab = {item.name} key={item.id} />
         })
       }
+      <div className='viewport'>Pages Go Here</div>
     </div>
   )
 }
