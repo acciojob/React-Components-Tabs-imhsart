@@ -2,8 +2,8 @@ import React from "react";
 
 const Tabs = ({tab}) => {
   return (
-      <div id={`${tab}-Tab`}>
-        <div className="tab">
+      <div className="tab">
+        <div id={`${tab}-Tab`}>
           {tab}
         </div>
       </div>
